@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="NYTimes UI Tests">
+    <!-- If useSauce is false then all tests are on local-->
+    <parameter name="userName" value="baruapapri"/>
+    <parameter name="key" value="99f7438e-0e00-412c-bac3-23b41ad9a889"/>
+    <parameter name="useSauceLabs" value="false"/>
+    <parameter name="localPlatform" value="true"/>
+    <parameter name="url" value="http://www.nytimes.com"/>
+    <!--<parameter name="userName" value=""/>-->
+    <parameter name="password" value=""/>
+    <parameter name="" value=""/>
+    <parameter name="" value=""/>
+    <parameter name="" value=""/>
+    <test name="NYTimes on VISTA with firefox Tests">
+        <parameter name="os" value="Windows 8"/>
+        <!--<parameter name="browser" value="googlechrome"/>-->
+        <parameter name="browser" value="firefox"/>
+        <parameter name="browserVersion" value="28"/>
+        <!--<parameter name="browser" value="safari"/>-->
+        <classes>
+            <!--<class name="home.GetLinks"/>-->
+            <!--<class name="home.GetNews"/>-->
+            <!--<class name="home.GetSocialMedia"/>-->
+            <!--<class name="home.NavigationTab"/>-->
+            <class name="home.SearchTest"/>
+            <!--<class name="home.SignInPage"/>-->
+
+        </classes>
+    </test>
+    <!-- Test specific params are defined below this-->
+    <parameter name="" value=""/>
+</suite>

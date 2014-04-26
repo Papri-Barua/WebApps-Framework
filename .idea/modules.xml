@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LinkedIn/LinkedIn.iml" filepath="$PROJECT_DIR$/LinkedIn/LinkedIn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MetLife/MetLife.iml" filepath="$PROJECT_DIR$/MetLife/MetLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NYTimes/NYTimes.iml" filepath="$PROJECT_DIR$/NYTimes/NYTimes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebApps-Framework.iml" filepath="$PROJECT_DIR$/WebApps-Framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eBay/eBay.iml" filepath="$PROJECT_DIR$/eBay/eBay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generic/generic.iml" filepath="$PROJECT_DIR$/generic/generic.iml" />
+    </modules>
+  </component>
+</project>
+

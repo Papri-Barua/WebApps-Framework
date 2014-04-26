@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="mySuite" verbose="1" parallel="tests">
+
+    <parameter name="url" value="http://www.linkedin.com/"/>
+    <parameter name="SauceLab" value="false"/>
+
+    <test name="Regression test">
+        <classes>
+            <!--class name="myTest.Registration"/-->
+            <!--class name="myTest.LogIn"/-->
+            <!--class name="myTest.NavigateMenu"/-->
+            <class name="myTest.SearchCompany"/>
+            <!--class name="myTest.EditProfile"/-->
+            <!--class name="myTest.MessageInbox"/-->
+            <!--class name="myTest.Jobs"/-->
+            <!--class name="myTest.LogOut"/-->
+
+        </classes>
+    </test>
+</suite>
